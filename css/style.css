@@ -1,13 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #2d3c49;
 }
 
 h2 {
 	color: #7d97ad;
+	margin-left: 10px;
 }
 
 hr {
-	border-top: 2px solid #7d97ad ;
+	border-top: 3px solid #7d97ad ;
 }
 
 .title-super {
@@ -19,6 +22,6 @@ hr {
 }
 
 .title-logo {
-	max-height: 115px;
-	margin-top: 20px;
+	max-height: 90px;
+	margin-top: 30px;
 }

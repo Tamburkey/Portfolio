@@ -9,12 +9,20 @@ h2 {
 	margin-left: 10px;
 }
 
+h3 {
+	font-size: 32px;
+}
+
+a {
+	color: #2d3c49;
+}
+
 hr {
 	border-top: 3px solid #7d97ad ;
 }
 
 .title-super {
-	font-size: 60px;
+	font-size: 80px;
 }
 
 .text-thin {

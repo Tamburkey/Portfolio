@@ -22,9 +22,12 @@ hr {
 }
 
 .title-super {
-	font-size: 80px;
+	font-size: 70px;
 }
 
+.title-sub {
+	font-size: 26px;
+}
 .text-thin {
 	font-weight: 100;
 }

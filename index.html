@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="https://developer.cdn.mozilla.net/static/img/favicon32.e02854fdcf73.png">
     <title> Portfolio </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
+    <div id="container" class="container">
+      <div id="header" class="row">
         <div class="col-md-6">
           <img 
             class="img-responsive title-logo"
@@ -26,7 +25,7 @@
         </div>
       </div>
       <hr>
-      <div class="row">
+      <div id="hero-pic" class="row">
         <div class="col-md-12">
           <img 
             class="img-responsive"
@@ -35,13 +34,13 @@
             alt="image of some html code on a computer screen">
         </div>
       </div>
-      <div class="row">
+      <div id="article" class="row">
         <div class="col-md-12">
           <h2>Featured Work</h2>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-md-4">
+      <div id="section" class="row text-center">
+        <div id="appify" class="col-md-4">
           <img 
             class="img-responsive"
             src="img/appify.jpg"
@@ -54,7 +53,7 @@
             <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
           </p>
         </div>
-        <div class="col-md-4">
+        <div id="sunflower" class="col-md-4">
           <img 
             class="img-responsive"
             src="img/sunflower_1x.png"
@@ -67,7 +66,7 @@
             <a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower/</a>
           </p>
         </div>
-        <div class="col-md-4">
+        <div id="bokeh" class="col-md-4">
           <img 
             class="img-responsive"
             src="img/bokeh_1x.png"
@@ -145,5 +144,7 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
